@@ -14,10 +14,11 @@ setup(
   install_requires=[
     "loop_rate_limiters",
     "mink",
-    "mujoco",
+    "mujoco>=3.3.7",
     "numpy",
     "scipy",
     "qpsolvers[proxqp]",
+    "proxsuite<0.7.2.post1",
     "rich",
     "tqdm",
     "opencv-python",
